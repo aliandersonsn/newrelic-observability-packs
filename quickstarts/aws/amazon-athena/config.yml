@@ -1,23 +1,30 @@
 id: 5f3d35d7-668b-41f3-98d7-ccc93a50933c
 name: amazon-athena
 description: |-
-  ## What is Amazon Athena?
+  ## Monitoring Amazon Athena
+  
+  Amazon Athena is a serverless and interactive query service that makes it easy for you to analyze data in Amazon S3 using standard SQL. 
+  
+  Most query service results are delivered within seconds and there is no need for complex ETL (extract, transform and load) tasks to prepare your data for analysis. However, you need to monitor Amazon Athena to detect incidents and respond to them quickly. 
+  
+  ### New Relic Amazon Athena highlights
+  
+  [New Relic’s Amazon Athena monitoring]https://docs.newrelic.com/docs/integrations/amazon-integrations/aws-integrations-list/aws-athena-monitoring-integration/ instruments your Amazon Athena cloud service and manages the stability, scalability, and reliability of your systems with New Relic's infrastructure monitoring capabilities. 
+  
+  It provides visibility on your services and how they interact with other services you don’t own. 
+  
+  ### New Relic + Amazon Athena = Optimum performance monitoring
+  
+  New Relic’s Amazon Athena integration helps you to monitor your data and create meaningful reports from that data. To activate the integration, you need to connect your AWS services to New Relic with these procedures. Once connected, you can change the polling frequency and filter data using configuration options. This is particularly important if you’re not seeing data coming in with the current frequency. The default polling interval for New Relic is 5 minutes.
+  
+  The Amazon Athena integration collects Amazon Athena data for WorkGroup. Some of the metrics monitored include ProcessedBytes and TotalExecution time. ProcessedBytes is the amount of data (in Megabytes) that Athena scans per query while TotalExecution time is the amount of time (in seconds) it takes Athena to run the query.  You can query and explore your data by using the event type, AwsAthenaWorkGroupSample.
+  
+  Sign up for a free New Relic account to monitor Amazon Athena performance metrics. Our dashboards help teams to understand, query, and use integration data. It’s the key to making sure that you detect and respond to any incident quickly and efficiently.
 
-  Serverless, interactive query service to query data and analyze big data in
-  Amazon S3 using standard SQL.
-
-
-  ### Get started!
-
-  Start monitoring Amazon Athena by connecting Amazon Web Services (AWS) to New Relic!
-
-  Check out our Amazon Athena documentation to instrument your cloud service and manage the stability, scalability, and reliability of your systems with New Relic's infrastructure monitoring capabilities.
-
-  ### More info
-
-  Check out the [documentation](https://docs.newrelic.com/docs/integrations/amazon-integrations/aws-integrations-list/aws-athena-monitoring-integration) to learn more about New Relic monitoring for Amazon Athena. 
+ 
 summary: |-
-  Monitor Amazon Athena by connecting AWS to New Relic
+  Monitoring Amazon Athena is critical to ensure that you detect incidents and respond to them quickly. Sign up for a free New Relic account to monitor Amazon Athena performance metrics.
+  
 icon: icon.svg
 logo: logo.svg
 level: New Relic
